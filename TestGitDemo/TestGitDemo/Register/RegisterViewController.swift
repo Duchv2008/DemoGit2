@@ -14,8 +14,27 @@ class RegisterViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+
     func register() {
         print("Make register")
+    }
+
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+    func register() {
+        print("Register")
+    }
+
+    func forgot() {
+        print("ABCD")
     }
 }

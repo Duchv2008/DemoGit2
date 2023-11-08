@@ -13,6 +13,8 @@
 		28DB06882AFBB841000C8C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DB06862AFBB841000C8C9A /* Main.storyboard */; };
 		28DB068A2AFBB844000C8C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DB06892AFBB844000C8C9A /* Assets.xcassets */; };
 		28DB068D2AFBB844000C8C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DB068B2AFBB844000C8C9A /* LaunchScreen.storyboard */; };
+		28DB06A12AFBB9EB000C8C9A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DB069F2AFBB9EB000C8C9A /* RegisterViewController.swift */; };
+		28DB06A22AFBB9EB000C8C9A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28DB06A02AFBB9EB000C8C9A /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		28DB06892AFBB844000C8C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28DB068C2AFBB844000C8C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28DB068E2AFBB844000C8C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DB069F2AFBB9EB000C8C9A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		28DB06A02AFBB9EB000C8C9A /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		28DB067F2AFBB841000C8C9A /* TestGitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28DB069E2AFBB9DD000C8C9A /* Register */,
 				28DB06802AFBB841000C8C9A /* AppDelegate.swift */,
 				28DB06822AFBB841000C8C9A /* SceneDelegate.swift */,
 				28DB06842AFBB841000C8C9A /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				28DB068E2AFBB844000C8C9A /* Info.plist */,
 			);
 			path = TestGitDemo;
+			sourceTree = "<group>";
+		};
+		28DB069E2AFBB9DD000C8C9A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				28DB069F2AFBB9EB000C8C9A /* RegisterViewController.swift */,
+				28DB06A02AFBB9EB000C8C9A /* RegisterViewController.xib */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				28DB068D2AFBB844000C8C9A /* LaunchScreen.storyboard in Resources */,
 				28DB068A2AFBB844000C8C9A /* Assets.xcassets in Resources */,
 				28DB06882AFBB841000C8C9A /* Main.storyboard in Resources */,
+				28DB06A22AFBB9EB000C8C9A /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				28DB06852AFBB841000C8C9A /* ViewController.swift in Sources */,
 				28DB06812AFBB841000C8C9A /* AppDelegate.swift in Sources */,
 				28DB06832AFBB841000C8C9A /* SceneDelegate.swift in Sources */,
+				28DB06A12AFBB9EB000C8C9A /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
